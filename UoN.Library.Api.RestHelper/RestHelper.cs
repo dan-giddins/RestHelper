@@ -14,7 +14,7 @@ namespace UoN.Library.Api.RestHelper
 
 		public RestHelper(
 			string baseAddress,
-			AuthenticationHeaderValue authorization,
+			AuthenticationHeaderValue authorization = null,
 			string mediaType = "application/json")
 		{
 			// set content media type 
