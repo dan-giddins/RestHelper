@@ -2,7 +2,7 @@
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace RestHelper
+namespace RestHelperLib
 {
 	public static class AuthenticationHelper
 	{

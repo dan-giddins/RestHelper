@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestHelper
+namespace RestHelperLib
 {
 	public class RestHelper : IRestHelper
 	{
