@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace UoN.Library.Api.RestHelper
+namespace RestHelper
 {
 	public interface IRestHelper
 	{

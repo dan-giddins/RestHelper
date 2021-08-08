@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace UoN.Library.Api.RestHelper
+namespace RestHelper
 {
 	/// <summary>
 	/// This represents the object which is returned from an OData API.

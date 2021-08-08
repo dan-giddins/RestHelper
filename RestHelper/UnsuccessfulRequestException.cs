@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Runtime.Serialization;
 
-namespace UoN.Library.Api.RestHelper
+namespace RestHelper
 {
 	[Serializable]
 	public class UnsuccessfulRequestException : Exception
