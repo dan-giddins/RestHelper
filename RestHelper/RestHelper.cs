@@ -114,7 +114,6 @@ namespace RestHelperLib
 					}),
 				Encoding.UTF8,
 				_mediaType);
-			// the worktribe API needs this to be unset
 			// this could be passed in to the RestHelper constructer if other APIs need something diffrent
 			stringContent.Headers.ContentType.CharSet = "";
 			return stringContent;
