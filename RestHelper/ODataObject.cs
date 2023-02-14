@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace RestHelperLib
+namespace RestHelper
 {
 	/// <summary>
 	/// This represents the object which is returned from an OData API.
@@ -12,11 +12,11 @@ namespace RestHelperLib
 		/// Provides a link detailing the metadata of the objects contained in Value
 		/// </summary>
 		[JsonProperty("@odata.context")]
-		public string Context { get; set; }
+		public string? Context { get; set; }
 		/// <summary>
 		/// Collection of objects filtered by OData
 		/// </summary>
 		[JsonProperty("value")]
-		public T Value { get; set; }
+		public T? Value { get; set; }
 	}
 }
